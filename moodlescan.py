@@ -167,7 +167,7 @@ def getcve(version):
 		for k , b in a.items():
 			if version  in b['afectadas']:
 				nvuln +=1
-				print ("\nCVE		: " + k + " ### Tipo : " + b['tipo'] + " ### Autenticacion? : " + b['auth'] + " ### Exploit? : " + b['exploit'])
+				print ("\nCVE		: " + k)
 				print ("Descripcion	: " + b['descripcion'])
 				
 
